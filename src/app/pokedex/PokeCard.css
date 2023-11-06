@@ -1,0 +1,26 @@
+.pokeCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  border: solid black;
+}
+
+.pokeCard img {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.poke-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.poke-info h2,
+h3,
+h4 {
+  margin: 5px;
+  padding: 0px;
+}

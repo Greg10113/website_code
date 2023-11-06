@@ -1,0 +1,72 @@
+:root{
+  --primary-color: grey
+  --secondary-color: darkgrey
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: inline-block;
+}
+
+.movie {
+  width: 200px;
+  margin: 1rem;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  flex-direction: row;
+}
+
+.movie-info:hover + .movie-image {
+  filter: brightness(60%); /* Adjust the percentage to control darkness */
+  transition: filter 0.3s ease; /* Add a smooth transition effect */
+}
+
+.movie img {
+  width: 100%;
+}
+
+.movie-info {
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie-info span {
+  background-color: gray;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.movie-info span.green {
+  color: lightgreen;
+}
+
+.movie-info span.orange {
+  color: orange;
+}
+
+.movie-info span.red {
+  color: red;
+}
+
+.search{
+  background-color: transparent;
+  border: 2px solid ;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  color: #fff;
+}
+
+.search::placeholder{
+  color: #7378c5;
+  background-color:
+}
